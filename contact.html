@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="header">
+
+        <a href="" class="head"><img src="./images/Tuition.jpg" alt="logo"><h3>A1 Tuition</h3></a>
+
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a> 
+            <a href="class.html">Classes</a>
+            <a href="contact.html">Contact</a>
+
+        </nav>
+
+        <div id="menu-btn" class="fas fa-bars"></div>
+    </section>
+    <div class="heading" style="background:url(images/111.gif) no-repeat">
+        <h1>CONTACT US</h1>
+    
+    </div>
+    <section>
+    <div class="contact-in">
+        <h1>Send a Message</h1>
+        <form onsubmit="emailSend(); reset(); return false;">
+            <input type="text" id="name" placeholder="Full Name" name="name" class="contact-in-input" required>
+            <input type="text" id="phone" placeholder="phone" name="phone" class="contact-in-input" required>
+            <input type="email" id="email" placeholder="Email" name="email" class="contact-in-input" required>
+            <input type="text" id="school" placeholder="School" name="school" class="contact-in-input" required>
+            <input type="text" id="clas" placeholder="Class" name="clas" class="contact-in-input" required>
+            <textarea placeholder="Message" name="msg" class="contact-in-textarea"></textarea>
+            <input type="submit" name="save" value="SUBMIT" class="contact-in-btn">
+        </form>
+    </div>
+    </section>
+    <div class="contact-in">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2308.5410673399992!2d77.60152656036898!3d13.003846873180867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka%2C%20India!5e0!3m2!1sen!2som!4v1702142526244!5m2!1sen!2som" width="400" height="900" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="index.html"><i class="fas fa-angle-right"></i> Home </a>
+                <a href="about.html"><i class="fas fa-angle-right"></i> About</a>
+                <a href="class.html"><i class="fas fa-angle-right"></i> Classes</a>
+                <a href="contact.html"><i class="fas fa-angle-right"></i> Contact</a>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#"><i class="fas fa-phone"></i> +91-2233115566</a>
+                <a href="#"><i class="fas fa-phone"></i> +91-2233118899</a>
+                <a href="#"><i class="fas fa-envelope"></i> tyw@gmail.com</a>
+                <a href="#"><i class="fas fa-map"></i> bangalore, india 560024</a>
+            </div>
+
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#"><i class="fab fa-facebook-f"></i> facebook</a>
+                <a href="#"><i class="fab fa-twitter"></i> twitter</a>
+                <a href="#"><i class="fab fa-instagram"></i> instagram</a>
+                <a href="#"><i class="fab fa-linkedin"></i> linkedin</a>
+            </div>
+        </div>
+
+        <div class="credit">created by<span> Mohammed Sahil</span> |all rights reserved| </div>
+
+    </section>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+	<script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
