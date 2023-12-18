@@ -51,7 +51,7 @@ function leftClick() {
 }
 
 function rightClick() {
-    btnn.style.left = '311px'
+    btnn.style.left = '50%'
     pack2.style.display="grid"
     pack1.style.display="none"
 }
